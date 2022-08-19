@@ -10,12 +10,12 @@ def fabonacci( n):
         print(1)
         a = 0
         b=1
-        c=1
+        c=0
         while c<n :
+            c=a+b
             print(c)
             a=b
             b=c
-            c=a+b
 def factorial(n):
     print('Factorial : ')
     c=1
